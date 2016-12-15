@@ -34,7 +34,7 @@ a:hover {
 
 .nav {
   position: relative;
-  background-color: #E89126;
+  background-color: #e89126;
 }
 
 .nav a {
@@ -47,7 +47,7 @@ a:hover {
 
 .nav a:hover {
   background-color: #fff;
-  color: #E89126;
+  color: #e89126;
 }
 
 .nav a:focus {
@@ -59,7 +59,7 @@ a:hover {
 }
 
 .about-content {
-  background-color: #E89126;
+  background-color: #e89126;
   color: #fff;
 }
 
@@ -82,7 +82,7 @@ a:hover {
 }
 
 .btn:hover {
-  background-color: #E89126;
+  background-color: #e89126;
   border-color: #fff;
   border-width: 2px;
 }
@@ -101,15 +101,7 @@ a:hover {
     background-color: transparent;
   }
 
-  .about-content {
-    bottom: 0;
-    position: absolute;
-    width: 100%;
-
-    background-color: transparent;
-  }
-
-  .img-flex{
+  .img-flex {
     margin: 0;
   }
 
