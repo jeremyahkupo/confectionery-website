@@ -4,14 +4,6 @@ body {
   font-family: Oxygen, sans-serif;
 }
 
-.color-brand {
-  color: #568c36;
-}
-
-.color-brand-dark {
-  color: #113c00;
-}
-
 .masthead {
   background-color: rgb(72, 37, 27);
   color: #fff;
@@ -69,7 +61,7 @@ body {
   border-width: 2px;
 }
 
-#name, #subject, #email {
+#name, #subject, #email, #comment {
   color: #000;
 }
 
