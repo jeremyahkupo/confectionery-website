@@ -74,6 +74,10 @@ a:hover {
   background-size: 60px;
 }
 
+.contact {
+  display: inline-block;
+}
+
 .btn {
   background-color: rgb(72, 37, 27);
   color: #fff;
