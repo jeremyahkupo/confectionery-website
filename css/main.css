@@ -67,7 +67,7 @@ a:hover {
   width: 100%;
 }
 
-.contact {
+#feedback {
   background-color: rgb(72, 37, 27);
   color: #fff;
   background-image: url("../images/noun-667040.svg");
@@ -97,7 +97,6 @@ a:hover {
     bottom: 0;
     position: absolute;
     width: 100%;
-
     background-color: transparent;
   }
 
