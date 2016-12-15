@@ -5,7 +5,7 @@ html {
 body {
   background-color: rgb(72, 37, 27);
   color: #fff;
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
 }
 
 .color-brand {
@@ -27,7 +27,7 @@ a:hover {
 .masthead {
   background-color: rgb(72, 37, 27);
   color: #fff;
-  font-family: 'Fontdiner Swanky', cursive;
+  font-family: "Fontdiner Swanky", cursive;
 }
 
 .logo {
@@ -58,7 +58,7 @@ a:hover {
 
 .about {
   position: relative;
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
 }
 
 .about-content {
