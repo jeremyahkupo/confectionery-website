@@ -2,6 +2,11 @@ html {
   font-family: Merriweather, serif;
 }
 
+body {
+  background-color: rgb(72, 37, 27);
+  color: #fff;
+}
+
 .color-brand {
   color: #568c36;
 }
@@ -11,22 +16,16 @@ html {
 }
 
 a {
-  color: #568c36;2
+  color: #568c36;
 }
 
 a:hover {
   color: #113c00;
 }
 
-.max-length {
-  margin-left: 0;
-  margin-right: 0;
-}
-
 .masthead {
-  background-color: #5D2B14;
+  background-color: rgb(72, 37, 27);
   color: #fff;
-  font-family: "Kaushan Script", cursive;
 }
 
 .logo {
@@ -64,8 +63,35 @@ a:hover {
   color: #fff;
 }
 
+.img-flex {
+  width: 100%;
+}
 
-@media only screen and (min-width: 35em) {
+.contact {
+  background-color: rgb(72, 37, 27);
+  color: #fff;
+  background-image: url("../images/noun-667040.svg");
+  background-size: 60px;
+}
+
+.btn {
+  background-color: rgb(72, 37, 27);
+  color: #fff;
+  border-color: #fff;
+  border-width: 2px;
+}
+
+.btn:hover {
+  background-color: #E89126;
+  border-color: #fff;
+  border-width: 2px;
+}
+
+#name, #subject, #email {
+  color: #000;
+}
+
+@media only screen and (min-width: 38em) {
 
   .about-content {
     bottom: 0;
@@ -73,7 +99,18 @@ a:hover {
     width: 100%;
 
     background-color: transparent;
-    background-image: linear-gradient(to bottom, rgba(17, 60, 0, 0), rgba(103, 42, 10, .8));
+  }
+
+  .about-content {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+
+    background-color: transparent;
+  }
+
+  .img-flex{
+    margin: 0;
   }
 
 }
