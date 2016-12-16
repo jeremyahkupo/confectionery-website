@@ -8,7 +8,7 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky|Oxygen:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky" rel="stylesheet">
 </head>
 <body>
 
@@ -24,7 +24,6 @@
 
   <header class="masthead" role="banner">
     <div class="push-1-2 island-1-2">
-      <img class="logo valign-middle" src="images/chocolate-piece.svg" alt="">
       <h1 class="ib valign-middle push-0 yotta">Coco’s Chocolatiers</h1>
     </div>
 
@@ -56,7 +55,29 @@
     </div>
   </main>
 
-
+  <section id="chocolate">
+    <div class="wrapper">
+      <h2 class="push-0">Chocolate</h2>
+      <div class="grid">
+        <div class="unit [ xs-1 s-1 m-1-2 l-1-4 ]">
+          <img class="flakes-img img-flex" src="images/chocolate-flakes.jpg" alt="These are chocolate flakes." aria-describedat="#">
+          <p class="milli">Chocolate Flakes</p>
+        </div>
+        <div class="unit [ xs-1 s-1 m-1-2 l-1-4 ]">
+          <img class="lime-img img-flex" src="images/chocolate-lime.jpg" alt="We also sell chocolate limes? What are they? You tell us!" aria-describedat="#">
+          <p class="milli">Chocolate-covered Limes</p>
+        </div>
+        <div class="unit [ xs-1 s-1 m-1-2 l-1-4 ]">
+          <img class="popcorn-img img-flex" src="images/chocolate-popcorn.jpg" alt="We sell something you never thought existed: Chocolate popcorn!" aria-describedat="#">
+          <p class="milli">Chocolate-covered Popcorn</p>
+        </div>
+        <div class="unit [ xs-1 s-1 m-1-2 l-1-4 ]">
+          <img class="coffee-img img-flex" src="images/coffee.jpg" alt="Check out all our products!" aria-describedat="#">
+          <p class="milli">More products</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <section id="news">
     <div class="wrapper">
@@ -87,6 +108,39 @@
     </div>
   </section>
 
+  <section id="feedback">
+    <div class="max-length pad-t-2 pad-b-2">
+      <h2>Leave us some feedback!</h2>
+      <form class="push-0" method="POST" action="https://formspree.io/">
+        <div class="push">
+          <label for="name">Name</label>
+          <input id="name" placeholder="Matthew Sauve" name="name">
+        </div>
+        <div class="push">
+          <label for="email">Your email</label>
+          <input id="email" type="email" placeholder="your.email@address.com">
+        </div>
+        <div class="push">
+          <label for="subject">Feedback</label>
+          <select id="subject">
+            <option>*Select*</option>
+            <option>Very satisfactory</option>
+            <option>Satisfactory</option>
+            <option>Alright</option>
+            <option>Very unsatisfactory</option>
+            <option>I don't know what chocolate-covered limes are...</option>
+          </select>
+        </div>
+        <div class="push">
+          <label for="comment">Special Comments</label>
+          <textarea id="comment"></textarea>
+        </div>
+        <div>
+          <button class="btn btn-light" type="submit">Send message</button>
+        </div>
+      </form>
+    </div>
+  </section>
 
   <footer class="footer" role="contentinfo">
     <p class="micro">© Coco's Chocolatiers</p>
