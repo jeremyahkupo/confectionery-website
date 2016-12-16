@@ -1,11 +1,13 @@
 body {
   background-color: rgb(72, 37, 27);
   color: #fff;
+  font-family: Oxygen, sans-serif;
 }
 
 .masthead {
   background-color: rgb(72, 37, 27);
   color: #fff;
+  font-family: "Fontdiner Swanky", cursive;
 }
 
 h2 {
@@ -35,6 +37,7 @@ h2 {
 
 .about {
   position: relative;
+  font-family: Oxygen, sans-serif;
 }
 
 .about-content {
