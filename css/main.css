@@ -10,6 +10,10 @@ body {
   font-family: "Fontdiner Swanky", cursive;
 }
 
+h2 {
+  margin-left: 18px;
+}
+
 .logo {
   width: 50px;
 }
@@ -61,6 +65,14 @@ body {
   border-width: 2px;
 }
 
+.footer {
+  text-align: center;
+}
+
+p {
+  margin-left: 18px;
+}
+
 #name, #subject, #email, #comment {
   color: #000;
 }
@@ -72,10 +84,6 @@ body {
     position: absolute;
     width: 100%;
     background-color: transparent;
-  }
-
-  .img-flex {
-    margin: 0;
   }
 
 }
